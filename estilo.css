@@ -4,5 +4,27 @@ background-color: rgb(237, 230, 255);
 
 .pag-inicial {
 background-color: rgb(157, 146, 196);  
+padding: 80px; ;
 }
 
+div.pag-inicial{
+    border-radius: 50px;
+}
+
+.pag-inicial img {
+  
+    width: 250px;
+
+}
+
+.botoes a {
+    text-decoration: none;
+    background-color: rgb(188, 188, 235);
+    color: blueviolet;
+    padding: 10px;
+    border-style: outset;
+}
+
+.botoes {
+    display: flex;
+}
