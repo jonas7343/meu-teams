@@ -23,8 +23,10 @@ div.pag-inicial{
     color: blueviolet;
     padding: 10px;
     border-style: outset;
+    border-color: azure;
 }
 
 .botoes {
     display: flex;
 }
+
