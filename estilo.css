@@ -5,6 +5,7 @@ background-color: rgb(237, 230, 255);
 .pag-inicial {
 background-color: rgb(157, 146, 196);  
 padding: 80px; ;
+
 }
 
 div.pag-inicial{
@@ -28,5 +29,18 @@ div.pag-inicial{
 
 .botoes {
     display: flex;
+}
+
+.senha-Usuário{
+
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
+
+.frase-inspiradora {
+
+text-align: center; justify-content: ;
+
 }
 
