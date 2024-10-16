@@ -1,5 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
 body{
+
 background-color: rgb(237, 230, 255);
+font-family: "EB Garamond", serif; 
 }
 
 .pag-inicial {
@@ -34,13 +39,52 @@ div.pag-inicial{
 .senha-Usuário{
 
     display: flex;
-    gap: 20px;
+    
     text-align: center;
+    display :flex; align-items: center; justify-content: space-between; 
 }
 
 .frase-inspiradora {
 
-text-align: center; justify-content: ;
+text-align: center; 
 
 }
 
+.Login {
+
+    display : flex; justify-content: center; align-items: center; height: 100vh;
+}
+.caixa-de-login h2{
+margin-top: 0%;
+text-align: center;
+}
+
+.Usuário {
+
+    margin-right: 5px;
+
+}
+
+.senha {
+
+    margin-left: 5px;
+}
+
+.caixa-de-login {
+
+    background-color: rgb(149, 130, 253); padding: 100px; border-radius: 100px;
+}
+body.Login { 
+   background-size: cover;
+    background-image: url(Gradiente\ de\ azul\ pastel\ rosa\ roxo\ desfocado\ foto\ abstrata\ linhas\ suaves\ cor\ de\ fundo\ _\ Foto\ Premium.jfif);
+}
+.página-do-aluno {
+    margin-top: 0%;
+    text-align: center;
+}
+
+.página-do-aluno .botoes {
+display: flex ; gap: 5px;
+justify-content: center;
+    
+}
