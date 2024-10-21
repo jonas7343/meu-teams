@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+
+body{
+
+background-color: rgb(130, 98, 212);
+font-family: "EB Garamond", serif; 
+}
+
+.pag-inicial {
+background-color: rgb(165, 140, 254);  
+padding: 80px; ;
+
+}
+
+div.pag-inicial{
+    border-radius: 50px;
+}
+
+.pag-inicial img {
+  
+    width: 250px;
+
+}
+
+.botoes a {
+    text-decoration: none;
+    background-color: rgb(188, 188, 235);
+    color: blueviolet;
+    padding: 10px;
+    border-style: outset;
+    border-color: azure;
+}
+
+.botoes {
+    display: flex;
+}
+
+.senha-Usuário{
+
+    display: flex;
+    
+    text-align: center;
+    display :flex; align-items: center; justify-content: space-between; 
+}
+
+.frase-inspiradora {
+
+text-align: center; 
+
+}
+
+.Login {
+
+    display : flex; justify-content: center; align-items: center; height: 100vh;
+}
+.caixa-de-login h2{
+margin-top: 0%;
+text-align: center;
+}
+
+.Usuário {
+
+    margin-right: 5px;
+
+}
+
+.senha {
+
+    margin-left: 5px;
+}
+
+.caixa-de-login {
+
+    background-color: rgb(149, 130, 253); padding: 100px; border-radius: 100px;
+}
+body.Login { 
+   background-size: cover;
+    background-image: url(Gradiente\ de\ azul\ pastel\ rosa\ roxo\ desfocado\ foto\ abstrata\ linhas\ suaves\ cor\ de\ fundo\ _\ Foto\ Premium.jfif);
+}
+body.pagina-do-aluno2 {
+    margin-top: 0%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-image: url(Gradiente\ de\ azul\ pastel\ rosa\ roxo\ desfocado\ foto\ abstrata\ linhas\ suaves\ cor\ de\ fundo\ _\ Foto\ Premium.jfif);
+}
+
+.página-do-aluno .botoes {
+display: flex ; gap: 5px;
+justify-content: center;
+    
+}
+
+.botoes a {
+
+
+
+}
