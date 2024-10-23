@@ -1,0 +1,26 @@
+# Teams paraguaio
+Neste repoditório está implementado o sistema teams paraguaio que é um site que serve para auxiliar alunos de determinado colégio com suas tarefas. Refere-se ao  teams da microsoft
+
+
+## COMO INSTALAR O SISTEMA
+
+### REQUISITOS
+
+- Computador
+- Internet
+- Visual studio code
+- Phython
+- biblioteca flask para phyton
+- extensão phyton do VS code
+
+## CLONAR REPOSITÓRIO DO GITHUB
+1. abra o visual studio code e clique no botão "controle de código de fonte"
+! {imagem 01} (readme-imgs)
+
+2. clique em "clonar repositório", "clonar de github" e clique em "permitir" na janela que vai aparecer.
+
+3. faça o login,autorize o visual Studio code e depois"abrir link" para abrir novamente o programa
+
+4. escolha o repositório do projeto para clonar
+
+5. deseja abrir o repositório clonado? abrir
