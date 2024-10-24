@@ -24,3 +24,12 @@ Neste repoditório está implementado o sistema teams paraguaio que é um site q
 4. escolha o repositório do projeto para clonar
 
 5. deseja abrir o repositório clonado? abrir
+
+#### instalar o phyton
+
+1. clique em "extensoes"no menua esquerdaou CRTL+SHIFT+X
+2. procure por python
+3. clique em instalar
+#### instalar a biblioteca flask
+1.  abrir um novo terminal : barra de ferramentas > Três pontinhos> terminal> Novo terminal
+2. digite o comando"pip install flask-- user" e pressione
