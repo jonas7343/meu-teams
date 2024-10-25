@@ -1,11 +1,32 @@
-# importando a bilioteca do flask para fazer um site
-from flask import flask, render_template, request
+# importando a biblioteca do Flaskpara fazer um site dinâmico
+from flask import Flask, render_template, request
 
-app=flask(_name)
-
+app= Flask(_name_)
+# cria uma lista e usuários e senha, depois vamos pegar no db
+# 
+# 
+# 
+# 
+# definindo a rota pricipal do site
 @app.route('/')
-def home()
-  return  render_template('index.html')
+def home():
+    return render_template('index.html')
 
-  if _name_ =='_main_':
-    app.run(debug=true
+@app.route("/login")
+def login():
+    return render_template("login.html")
+
+@app.route("/cadastro")
+def cadastro():
+    return render_template("cadastro.html")
+
+@app.route("/música")
+def música():
+    return render_template("música.html")
+
+@app.route("/principal")
+def principal():
+    return render_template("principal.html")
+# Parte pricipaldo programa em Python
+if _name== 'main_':
+    app.run(debug=True)
