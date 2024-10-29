@@ -27,6 +27,8 @@ def música():
 @app.route("/principal")
 def principal():
     return render_template("principal.html")
+
+@app.route('/verificar-login',methods=['POST'])
 # Parte pricipaldo programa em Python
 if _name== 'main_':
     app.run(debug=True)
