@@ -32,4 +32,4 @@ Neste repoditório está implementado o sistema teams paraguaio que é um site q
 3. clique em instalar
 #### instalar a biblioteca flask
 1.  abrir um novo terminal : barra de ferramentas > Três pontinhos> terminal> Novo terminal
-2. digite o comando"pip install flask-- user" e pressione
+2. digite o comando"pip install flask --user" e pressione
