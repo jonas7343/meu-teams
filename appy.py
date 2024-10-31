@@ -5,9 +5,9 @@ app= Flask(__name__)
 # cria uma lista e usuários e senha, depois vamos pegar no db
 usuarios = {
     'admin' : 'admin',
-    'usuario' : 'senha',
+    'joao vitor' : 'belobravo1234',
     'rafaela' : '111111',
-    'heitor' : '1271'
+    'heitor' : '1271',
 }
 # 
 # 

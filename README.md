@@ -15,7 +15,7 @@ Neste repoditório está implementado o sistema teams paraguaio que é um site q
 
 ## CLONAR REPOSITÓRIO DO GITHUB
 1. abra o visual studio code e clique no botão "controle de código de fonte"
-! {imagem 01} (readme-imgs)
+
 
 2. clique em "clonar repositório", "clonar de github" e clique em "permitir" na janela que vai aparecer.
 
@@ -33,3 +33,12 @@ Neste repoditório está implementado o sistema teams paraguaio que é um site q
 #### instalar a biblioteca flask
 1.  abrir um novo terminal : barra de ferramentas > Três pontinhos> terminal> Novo terminal
 2. digite o comando"pip install flask --user" e pressione
+### Configurando GIT
+1. No terminal digite os comandos: 
+
+`git config user.name seu_usuario`
+
+`git config user.email seu_nome@email.com`
+
+## Como executar o servidor 
+1. Clique com o botão direito no arquivo "app.py" e selecione "Executar o arquivo Python no terminal"
