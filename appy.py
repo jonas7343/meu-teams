@@ -1,7 +1,8 @@
 # importando a biblioteca do Flaskpara fazer um site dinâmico
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request,flash,redirect,url_for
 
 app= Flask(__name__)
+app.secret_key ='usuario123'
 # cria uma lista e usuários e senha, depois vamos pegar no db
 usuarios = {
     'admin' : 'admin',
@@ -25,13 +26,9 @@ def login():
 def cadastro():
     return render_template("cadastro.html")
 
-@app.route("/música")
-def música():
-    return render_template("música.html")
-
-@app.route("/principal")
-def principal():
-    return render_template("principal.html")
+@app.route("/pagina-do-aluno")
+def pagina_do_aluno():
+    return render_template("página do aluno.html")
 
 @app.route('/verificar-login',methods=['POST'])
 # Parte pricipaldo programa em Python
@@ -43,10 +40,10 @@ def verificar_login():
     # Verifica se o usuario digitado está na lista e se 
     # a senha está certa
     if username in usuarios and usuarios[username] == password:
-        return f"Bem-vindo, {username}!"
+        return redirect(url_for('pagina_do_aluno'))
     else:
-        return "Usuário ou senha inválidos."
-
+        flash('Usuário ou senha incorretos', 'danger')
+        return redirect(url_for('login'))
 
 if __name__ == '__main__':
     app.run(debug=True)
