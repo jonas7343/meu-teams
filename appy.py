@@ -30,6 +30,17 @@ def cadastro():
 def pagina_do_aluno():
     return render_template("página do aluno.html")
 
+@app.route("/chat")
+def chat_prof():
+    return render_template("chat com professor.html")
+
+@app.route("/provas")
+def chat_prof():
+    return render_template("provas.html")
+
+
+
+
 @app.route('/verificar-login',methods=['POST'])
 # Parte pricipaldo programa em Python
 def verificar_login():
